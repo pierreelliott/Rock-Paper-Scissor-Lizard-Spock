@@ -27,7 +27,7 @@ Based on Sheldon explanation, the rules are :
 
 This project uses the [Font Awesome](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) library for the icons.
 
-You can find a demo of the game at [pierreelliott.github.io/Rock-Paper-Scissor-Lizard-Spock](https://pierreelliott.github.io/Rock-Paper-Scissors-Lizard-Spock/).
+You can find a demo of the game at [pierreelliott.github.io/Rock-Paper-Scissors-Lizard-Spock](https://pierreelliott.github.io/Rock-Paper-Scissors-Lizard-Spock/).
 
 Useful links :
 * [GitHub](https://github.com/pierreelliott/Rock-Paper-Scissors-Lizard-Spock)
