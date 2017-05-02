@@ -3,12 +3,48 @@
 	display: inline-block;
 }
 
+.command:hover {
+	color: green;
+}
+
 .commands {
 	bottom: 20vh;
 	left: 20vw;
 	width: 60vw;
 	height: 20vh;
-	position: static;
+	position: fixed;
+	text-align: center;
+}
+
+.playground {
+	position: fixed;
+	top: 10vh;
+	height: 40vh;
+	left: 20vh;
+	width: 60vw;
+	text-align: center;
+}
+
+.player1 {
+	float: left;
+	margin-top: 10%;
+}
+
+.player2 {
+	float: right;
+	margin-top: 10%;
+}
+
+.player1 .desc, .player2 .desc {
+	font-size: 200%;
+	color: darkblue;
+	margin-bottom: 50px;
+}
+
+#score {
+	font-weight: bold;
+	font-size: 150%;
+	padding: 2% 5%;
 }
 
 .shakeHands {
@@ -23,6 +59,6 @@
 		top: 0px;
 	}
     to {
-		top: -100px;
+		top: -30px;
 	}
 }
