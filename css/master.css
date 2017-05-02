@@ -1,3 +1,28 @@
 .command {
 	cursor: pointer;
+	display: inline-block;
+}
+
+.commands {
+	bottom: 20vh;
+	left: 20vw;
+	width: 60vw;
+	height: 20vh;
+	position: static;
+}
+
+.shakeHands {
+	animation-name: shakingHands;
+	animation-duration: 1s ;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+}
+
+@keyframes shakingHands {
+    from  {
+		top: 0px;
+	}
+    to {
+		top: -100px;
+	}
 }
